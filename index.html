@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>YNT Travels</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="YNT Travels Bus Ticket Booking" />
+		<meta name="keywords" content="Bus Booking, Online Bus Booking, Bus Ticket Booking, Online Bus Ticket Booking, 
+		YNT Bus Booking, YNT Bus Ticket Booking, YNT Booking, YNT Travels Booking, YNT Travels, YNT Travels Bus Booking, 
+		YNT Travels Bus Ticket Booking, YNT Travels Online Booking, YNT Travels Online Bus Ticket Booking, 
+		YNT Travels Online Booking" />
+		<meta name="author" content="Yaseen Nadaf" />
+		<!-- <meta http-equiv="refresh" content="600" /> /* This line can be used in case if we want our webpage to get refreshed after how 
+		many minutes (specify time in seconds) */-->
+		<link rel="Stylesheet" type="text/css" href="Stylesheet.css" />
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+		<div class="main-container">
+			<header>
+			<h3>YNT Travels</h3>
+			</header>
+			
+			<nav>
+				<div class="container">
+					<a href="index.html">Home</a>
+					<a href="#link">Link</a>
+					<div class="dropdown">
+						<button class="dropbtn">Career</button>
+						<div class="dropdown-content">
+						<a href="#">Driver Job</a>
+						<a href="#">Technical Job</a>
+						<a href="#">Administration Job</a>
+						</div>
+					</div> 
+				</div>
+			</nav>
+			
+			<nav>
+				<marquee id="marq">This website is under maintenance | We regret for inconvenience.</marquee>
+			</nav>
+			
+			<div class="main flex-container">
+			<div class="box" >
+			<div id="Form1">
+			<h1>Plan Your Journey</h1>
+			<form id="theForm" action="" method="post" onSubmit="">
+				<table>
+					<tr>
+					<td>
+						<label for="origin" required>Source</label>
+					</td>	
+					
+					<td>
+					:
+					</td>
+					
+					<td>
+						<input  list="origin" name="src" size="16" autofocus required/>
+						<datalist id="origin">
+							<option value="Bagalkote">
+							<option value="Bengaluru">
+							<option value="Bijapur">
+							<option value="Jamkhandi">
+							<option value="Mahalingpur">
+							<option value="Mudhol">
+						</datalist>
+					</td>
+					</tr>
+					
+					<tr>
+					<td>
+						<label for="dest" required>Destination</label>
+					</td>	
+					
+					<td>
+					:
+					</td>
+					
+					<td>
+						<input  list="dest" name="destination" size="16" required/>
+						<datalist id="dest">
+							<option value="Bagalkote">
+							<option value="Bengaluru">
+							<option value="Bijapur">
+							<option value="Jamkhandi">
+							<option value="Mahalingpur">
+							<option value="Mudhol">
+						</datalist>
+					</td>
+					</tr>
+					
+					<tr>
+					<td>
+						<label for="date">Date</label>
+					</td>	
+					
+					<td>
+					:
+					</td>
+					
+					<td>
+						<input type="date" name="day" size="16" required/>
+					</td>
+					</tr>
+					
+					<tr>
+					<td colspan="2"></td>
+					
+					<td>
+						<input type="submit" value="Submit"/> &nbsp;
+						<input type="reset" value="Reset" />
+					</td>
+					</tr>
+				</table>
+			</form>
+			</div>
+			</div>
+			
+			<div class="box-mid">
+			<div id="Form2">
+			<h1>User Login</h1>
+			<form id="theForm" action="" method="post" onSubmit="">
+				<table>
+					<tr>
+					<td>
+						<label for="origin" required>Source</label>
+					</td>	
+					
+					<td>
+					:
+					</td>
+					
+					<td>
+						<input  list="origin" name="src" size="16" autofocus required/>
+						<datalist id="origin">
+							<option value="Mudhol">
+							<option value="Bengaluru">
+							<option value="Bagalkote">
+							<option value="Bijapur">
+							<option value="Jamkhandi">
+							<option value="Mahalingpur">
+						</datalist>
+					</td>
+					</tr>
+					
+					<tr>
+					<td>
+						<label for="dest" required>Destination</label>
+					</td>	
+					
+					<td>
+					:
+					</td>
+					
+					<td>
+						<input  list="dest" name="destination" size="16" required/>
+						<datalist id="dest">
+							<option value="Mudhol">
+							<option value="Bengaluru">
+							<option value="Bagalkote">
+							<option value="Bijapur">
+							<option value="Jamkhandi">
+							<option value="Mahalingpur">
+						</datalist>
+					</td>
+					</tr>
+					
+					<tr>
+					<td>
+						<label for="date">Date</label>
+					</td>	
+					
+					<td>
+					:
+					</td>
+					
+					<td>
+						<input type="date" name="day" required/>
+					</td>
+					</tr>
+					
+					<tr>
+					<td colspan="2"></td>
+					
+					<td>
+						<input type="submit" value="Submit"/> &nbsp;
+						<input type="reset" value="Reset" />
+					</td>
+					</tr>
+				</table>
+			</form>
+			</div>
+			</div>
+			
+			<div class="box">
+			<div id="Form3">
+			<h1>Need Help?</h1>
+			<p><strong>Tel No:</strong> +91-776 085 7610</p>
+			<p><strong>Mail Us:</strong> ynttravels@gmail.com</p>
+			</div>
+			</div>
+			
+			</div>
+			
+			<section class="main">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				<img src="1.png" style="width:100%">
+				<div class="text">Caption Text</div>
+				</div>
+
+				<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img src="2.png" style="width:100%">
+				<div class="text">Caption Two</div>
+				</div>
+
+				<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img src="3.png" style="width:100%">
+				<div class="text">Caption Three</div>
+				</div>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+			</div>
+			</section>
+			
+			<footer>
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="">Queries</a></li>
+					<li><a href="">Contact Us</a></li>				
+				</ul>
+				<hr/>
+				<div id="socbuttn">
+				<a href="https://www.facebook.com/ynttravels/" class="fa fa-facebook" target="_blank"></a>
+				<a href="#" class="fa fa-twitter" target="_blank"></a>
+				<a href="#" class="fa fa-google" target="_blank"></a>
+				<a href="#" class="fa fa-linkedin" target="_blank"></a>
+				</div>
+				
+			</footer>
+		</div>
+	
+	<p id="cop">&copy; 2017 YNT Travels Pvt Ltd. All Rights Reserved.</p>
+	
+	<script src="slideshow.js"></script>
+	</body>
+</html>
